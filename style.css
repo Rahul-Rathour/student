@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+body {
+    background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
+    font-family: "Zeyada";
+
+}
+
+#sorry{
+    display: block;
+    /* border-radius: 50px; */
+    height: 200px;
+    width: 200px;
+}
+
+#img1, #img2{
+    border: 5px solid black;
+}
+
+#heart{
+    width: 40px;
+}
+#mydiv1,
+#mydiv2 {
+
+    border-radius: 5px;
+    align-items: center;
+    background-repeat: no-repeat;
+    /* height: 50%; */
+    /* width: 40%; */
+    /* background-image: url(img..jpg); */
+    font-size: larger;
+    font-weight: bolder;
+    /* background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1"); */
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    /* border: 1px solid #d3d3d3; */
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mydiv3{
+    height:200px;
+    width: 80%;
+}
+
+#mydiv,
+#mydiv3,
+#mydiv4,
+#mydiv5,
+#mydiv6,
+#mydiv7,
+#mydiv8 {
+    font-size: larger;
+    font-weight: bolder;
+    background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#mydivheader,
+#mydivheader1,
+#mydivheader2,
+#mydivheader3,
+#mydivheader4,
+#mydivheader5,
+#mydivheader6,
+#mydivheader7,
+#mydivheader8 {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    /* background-color: #2196F3; */
+    /* color: #fff; */
+    color: rgb(0, 0, 100);
+}
+
+
+p {
+    font-family: 'Zeyada';
+    font-size: 50px;
+    color: rgb(0, 0, 100);
+    opacity: 0.75;
+    user-select: none;
+
+    filter: drop-shadow(2px 1.5px 1px rgba(0, 0, 105, 0.9));
+}
